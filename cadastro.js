@@ -8,3 +8,4 @@ document.getElementById('cep').addEventListener('blur', function() {
             document.getElementById('estado').value = data.uf || "";
         });
 });
+
