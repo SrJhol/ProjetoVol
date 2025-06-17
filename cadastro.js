@@ -24,7 +24,7 @@ document.getElementById('form').addEventListener('submit', function(e) {
         bairro: document.getElementById('bairro').value,
         cidade: document.getElementById('cidade').value,
         estado: document.getElementById('estado').value,
-        contato: document.getElementById('contato').value
+       
     };
 
     const lista = JSON.parse(localStorage.getItem('necessidades') || "[]");
