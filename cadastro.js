@@ -43,18 +43,22 @@ document.getElementById('cep').addEventListener('blur', function() {
 document.getElementById('form').addEventListener('submit', function(e) {
     e.preventDefault();
 
-    const cpfLimpo = document.getElementById('cpf').value.replace(/[^\d]+/g, "");
+    const cpfInput = document.getElementById('cpf');
+    const cpfLimpo = cpfInput.value.replace(/[^\d]+/g, "");
+
     if (!validarCPF(cpfLimpo)) {
-        alert("CPF inválido! Corrija antes de enviar.");
-        return;
+        alert("CPF inválido!");
+        cpfInput.focus();  // volta o foco para o campo CPF
+        return; // impede o cadastro
     }
 
+    
     const necessidade = {
         instituicao: document.getElementById('instituicao').value,
         tipo: document.getElementById('tipo').value,
         nome: document.getElementById('nome').value,
         telefone: document.getElementById('telefone').value,
-        cpf: document.getElementById('cpf').value,
+        cpf: cpfInput.value,
         titulo: document.getElementById('titulo').value,
         descricao: document.getElementById('descricao').value,
         cep: document.getElementById('cep').value,
@@ -70,9 +74,11 @@ document.getElementById('form').addEventListener('submit', function(e) {
     alert("Cadastrado com sucesso!!!");
     this.reset();
 
+    // Opcional: Esconde mensagem de CPF se tiver
     const messageDiv = document.getElementById("cpf-message");
-    messageDiv.style.display = "none";
+    if(messageDiv) messageDiv.style.display = "none";
 });
+
 
 function validarCPF(cpf){
     cpf = cpf.replace(/[^\d]+/g,"");
@@ -109,4 +115,6 @@ function validarCPF(cpf){
     }
 
     return true;
+   
+
 }
