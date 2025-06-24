@@ -165,3 +165,21 @@ textarea {
     transform: translateY(-5px);
   }
 }
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.sobre-texto {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  text-indent: 30px;
+  color: #444;
+  padding: 0 15px;
+}
