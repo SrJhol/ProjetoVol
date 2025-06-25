@@ -1,15 +1,17 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visualizar Necessidades</title>
-     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Responsividade para dispositivos móveis -->
+    <title>Visualizar Necessidades</title><!-- Título da página -->
+     <link rel="stylesheet" href="style.css"><!-- Arquivo de estilos CSS -->
 </head>
 <body>
-    <header><h1>Necessidades Cadastradas</h1></header>
+    <header><h1>Necessidades Cadastradas</h1></header><!-- Título principal da página -->
     <main>
+         <!-- Campo de busca para filtrar necessidades -->
         <input type="text" id="pesquisa" placeholder="Pesquisar...">
-        <select id="filtro">
+        <!-- Filtro por categoria de necessidade -->
+        <select id="filtro"> 
             <option value="">Todos</option>
             <option>Educação</option>
             <option>Saúde</option>
@@ -18,10 +20,14 @@
             <option>Doação de Roupas</option>
             <option>Outros</option>
         </select>
+           <!-- Container onde a lista de necessidades será exibida dinamicamente -->
         <div id="lista"></div>
     </main>
+      <!-- Link para voltar à página inicial -->
      <footer><a href="index.html">Voltar</a></footer>
+       <!-- Script JavaScript responsável por carregar e filtrar as necessidades -->
      <script src="visualizar.js"></script>
+       <!-- Rodapé com direitos autorais -->
      <footer>&copy; 2025 Plataforma Voluntária</footer>
 </body>
 </html>
