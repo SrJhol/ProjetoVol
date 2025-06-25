@@ -43,22 +43,23 @@ O site está disponível em: 👉 https://srjhol.github.io/ProjetoVol/HTML/index
 
 
 ---
+
+
+### 🚀 **Como executar localmente**
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/SrJhol/ProjetoVol.git
+
+2. Abra o arquivo index.html no seu navegador.
+---
+
 👥 **Autor**
 
 Jhonatan Mendes- SrJhol
 
 
 ---
-
-🚀 **Como executar localmente**
-
- 1.Clone o repositório:
-```bash
-git clone https://github.com/SrJhol/ProjetoVol.git
-2. Abra o arquivo index.html no seu navegador.
----
-
-
 
 
 
