@@ -4,7 +4,7 @@ A **Plataforma Voluntária** é uma aplicação web simples e intuitiva desenvol
 
 ---
 
-🌟 **Funcionalidades**
+### 🌟 **Funcionalidades**
 
 - 📝 Cadastro de necessidades por instituições ou ONGs  
 - ✅ Validação automática de CPF e formatação de telefone  
@@ -14,7 +14,7 @@ A **Plataforma Voluntária** é uma aplicação web simples e intuitiva desenvol
 
 ---
 
-📁 **Tecnologias utilizadas**
+### 📁 **Tecnologias utilizadas**
 
 - HTML  
 - CSS  
@@ -23,7 +23,7 @@ A **Plataforma Voluntária** é uma aplicação web simples e intuitiva desenvol
 
 ---
 
-📂 **Estrutura de Arquivos**
+### 📂 **Estrutura de Arquivos**
 ProjetoVol/
 ├── CSS/
 │ └── style.css
@@ -38,7 +38,8 @@ ProjetoVol/
 
 ---
 
-📦 **Depoy**
+### 📦 **Depoy**
+
 O site está disponível em: 👉 https://srjhol.github.io/ProjetoVol/HTML/index.html
 
 
@@ -54,7 +55,7 @@ O site está disponível em: 👉 https://srjhol.github.io/ProjetoVol/HTML/index
 2. Abra o arquivo index.html no seu navegador.
 ---
 
-👥 **Autor**
+### 👥 **Autor**
 
 Jhonatan Mendes- SrJhol
 
